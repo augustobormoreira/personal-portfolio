@@ -1,0 +1,48 @@
+:root {
+  --paper: #f3ecd9;
+  --ink: #1b3a3a;
+  --mustard: #e8b923;
+  --red: #c4432b;
+  --teal: #1b3a3a;
+}
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: "Work Sans", sans-serif;
+  line-height: 1.55;
+  background-image: radial-gradient(
+    circle,
+    rgba(27, 58, 58, 0.08) 1px,
+    transparent 1px
+  );
+  background-size: 14px 14px;
+}
+
+.poster {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 0.01em;
+}
+
+a {
+  color: inherit;
+}
+a:focus-visible {
+  outline: 3px solid var(--red);
+  outline-offset: 2px;
+}
+
+.title-poster {
+  font-size: 30px;
+  margin-bottom: 34px;
+  color: var(--red);
+}

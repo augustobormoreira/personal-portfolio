@@ -1,0 +1,19 @@
+.contact {
+  padding: 60px 0 80px;
+  text-align: center;
+  border-top: 3px solid var(--ink);
+}
+
+.contact h2.poster {
+  font-size: clamp(36px, 6vw, 64px);
+  color: var(--teal);
+  margin-bottom: 24px;
+}
+
+.contact .links a {
+  display: inline-block;
+  margin: 0 14px;
+  font-size: 15px;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

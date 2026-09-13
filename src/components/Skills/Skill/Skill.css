@@ -1,0 +1,6 @@
+.skillstrip-span {
+  padding: 14px 22px;
+  font-size: 15px;
+  border-right: 3px solid var(--ink);
+  background: var(--paper);
+}

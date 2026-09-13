@@ -1,0 +1,35 @@
+.pcard {
+  background: var(--paper);
+  border: 3px solid var(--ink);
+  border-radius: 4px;
+  padding: 22px 20px;
+  position: relative;
+}
+
+.pcard .tape {
+  position: absolute;
+  top: -10px;
+  left: 24px;
+  width: 60px;
+  height: 20px;
+  background: var(--mustard);
+  opacity: 0.85;
+  transform: rotate(-2deg);
+}
+
+.pcard h3 {
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  font-size: 19px;
+  margin: 14px 0 8px;
+}
+.pcard p {
+  font-size: 13.5px;
+  margin: 0 0 12px;
+}
+.pcard a {
+  font-size: 13px;
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}

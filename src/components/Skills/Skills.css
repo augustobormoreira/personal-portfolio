@@ -1,0 +1,26 @@
+.skills {
+  padding: 60px 0;
+  border-top: solid var(--ink);
+}
+
+.skill-strip {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0;
+  border: 3px solid var(--ink);
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.skill-strip span:nth-child(odd) {
+  background: #fff;
+}
+.skill-strip span:last-child {
+  border-right: none;
+}
+
+@media (max-width: 700px) {
+  .skill-strip span {
+    border-bottom: 3px solid var(--ink);
+  }
+}

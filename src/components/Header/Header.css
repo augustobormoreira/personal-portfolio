@@ -1,0 +1,18 @@
+header{ 
+    display:flex; 
+    justify-content:space-between; 
+    align-items:center; 
+    padding:26px 0; 
+}
+header .mark{ 
+    width:16px; 
+    height:16px; 
+    background:var(--red); 
+    border-radius:50%;
+}
+
+header nav a{
+    font-size:13px;
+    margin-left:22px;
+    text-decoration:none;
+}

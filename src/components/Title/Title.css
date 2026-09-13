@@ -1,0 +1,29 @@
+.hero {
+  padding: 50px 0 70px;
+  position: relative;
+}
+.hero .badge {
+  display: inline-block;
+  background: var(--red);
+  color: var(--paper);
+  padding: 6px 16px;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 20px;
+  margin-bottom: 26px;
+}
+.hero h1 {
+  font-size: clamp(52px, 10vw, 120px);
+  line-height: 0.86;
+  margin: 0;
+  color: var(--teal);
+}
+.hero h1 .out {
+  -webkit-text-stroke: 2px var(--teal);
+  color: transparent;
+}
+.hero p {
+  font-size: 15px;
+  max-width: 66ch;
+  margin-top: 26px;
+}
