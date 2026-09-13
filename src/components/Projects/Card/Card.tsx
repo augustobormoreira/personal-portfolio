@@ -2,12 +2,10 @@ import ExternalLink from "../../ExternalLink/ExternalLink";
 import "./Card.css";
 
 export default function Card({
-  projectId,
   projectName,
   projectDesc,
   projectLink,
 }: {
-  projectId: number;
   projectName: string;
   projectDesc: string;
   projectLink: string;

@@ -24,7 +24,6 @@ export default function Projects() {
         {projects.map((project) => (
           <Card
             key={project.cardId}
-            projectId={project.cardId}
             projectName={project.projectName}
             projectDesc={project.projectDesc}
             projectLink={project.projectLink}
